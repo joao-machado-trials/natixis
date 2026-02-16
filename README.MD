@@ -12,9 +12,9 @@ It includes:<br>
 - **Dynamic rendering** on the frontend<br>
 - **Axios-based API communication**<br>
 <br>
-## Features
+## Features<br>
 <br>
-### Authentication
+### Authentication<br>
 The backend uses **Basic Auth** via Spring Security.<br>  
 All `/api/products/**` endpoints require authentication.<br>
 <br>
@@ -24,7 +24,7 @@ password: password<br>
 <br>
 The frontend automatically sends these credentials using Axios.<br>
 <br>
-### Product Management
+### Product Management<br>
 The app supports:<br>
 <br>
 - Create product<br>
@@ -38,16 +38,16 @@ Each product has:<br>
 - `price` (number, must be >= 0)<br>
 - `stock` (number, must be >= 0)<br>
 <br>
-### Validation
+### Validation<br>
 The backend validates incoming data using annotations<br>
 <br>
-# To run backend:
+# To run backend:<br>
 - cd backend<br>
 - mvn clean install<br>
 - mvn spring-boot:run<br>
 <br>
-# To run frontend:
-- cd frontend<br>
+# To run frontend:<br>
+- cd frontend/react-app<br>
 - npm install<br>
 - npm run dev<br>
 <br>
