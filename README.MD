@@ -12,8 +12,6 @@ It includes:<br>
 - **Dynamic rendering** on the frontend<br>
 - **Axios-based API communication**<br>
 <br>
----<br>
-<br>
 ## Features
 <br>
 ### Authentication
@@ -25,8 +23,6 @@ username: user<br>
 password: password<br>
 <br>
 The frontend automatically sends these credentials using Axios.<br>
-<br>
----<br>
 <br>
 ### Product Management
 The app supports:<br>
@@ -41,8 +37,6 @@ Each product has:<br>
 - `name` (string)<br>
 - `price` (number, must be >= 0)<br>
 - `stock` (number, must be >= 0)<br>
-<br>
----<br>
 <br>
 ### Validation
 The backend validates incoming data using annotations<br>
