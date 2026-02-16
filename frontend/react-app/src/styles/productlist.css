@@ -1,0 +1,88 @@
+.list-container {
+  margin-top: 2rem;
+  max-width: 600px;
+}
+
+.list-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.empty {
+  color: #666;
+  font-style: italic;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1rem;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.product-name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.product-price {
+  color: #0078ff;
+  font-weight: 500;
+}
+
+.product-stock {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.btn-edit {
+  background: #0078ff;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #0066d6;
+}
+
+.btn-delete {
+  background: #ff4d4d;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #d93636;
+}
