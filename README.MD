@@ -1,4 +1,4 @@
-#Fullstack Product Management App  
+# Fullstack Product Management App  
 Spring Boot Backend + React Frontend<br>
 <br>
 This project is a simple full‑stack application for managing products.  
@@ -14,9 +14,9 @@ It includes:<br>
 <br>
 ---<br>
 <br>
-##Features
-
-###Authentication
+## Features
+<br>
+### Authentication
 The backend uses **Basic Auth** via Spring Security.<br>  
 All `/api/products/**` endpoints require authentication.<br>
 <br>
@@ -28,7 +28,7 @@ The frontend automatically sends these credentials using Axios.<br>
 <br>
 ---<br>
 <br>
-###Product Management
+### Product Management
 The app supports:<br>
 <br>
 - Create product<br>
@@ -44,18 +44,18 @@ Each product has:<br>
 <br>
 ---<br>
 <br>
-###Validation
+### Validation
 The backend validates incoming data using annotations<br>
 <br>
-#To run backend:
+# To run backend:
 - cd backend<br>
 - mvn clean install<br>
 - mvn spring-boot:run<br>
 <br>
-#To run frontend:
+# To run frontend:
 - cd frontend<br>
 - npm install<br>
 - npm run dev<br>
 <br>
-#To access on the browser:
+# To access on the browser:
 http://localhost:5173<br>
